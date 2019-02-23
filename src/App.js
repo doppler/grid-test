@@ -5,24 +5,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="Header">
-          <h1>Header</h1>
+        <div className="header">Header</div>
+        <div className="tools-menu">Tools menu</div>
+        <div className="toolbar">
+          <div className="title">Toolbar header</div>
+          <div className="content">Toolbar content</div>
         </div>
-        <div className="Sidebar">
-          <h2>Sidebar</h2>
-          <ul>
-            <li>One</li>
-            <li>Two</li>
-            <li>Three</li>
-            <li>Four</li>
-          </ul>
-        </div>
-        <div className="Content">
-          <h2>Content</h2>
-        </div>
-        <div className="Footer">
-          <h2>Footer</h2>
-        </div>
+        <div className="panes">Panes</div>
+        <div className="footer">Footer</div>
       </div>
     );
   }
